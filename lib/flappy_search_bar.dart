@@ -422,7 +422,7 @@ class _SearchBarState<T> extends State<SearchBar<T>>
                     child: AnimatedContainer(
                       duration: Duration(milliseconds: 200),
                       width:
-                          _animate ? MediaQuery.of(context).size.width * .2 : 0,
+                          _animate ? widthMax * .05 : 0,
                       child: Container(
                         color: Colors.transparent,
                         child: Center(
